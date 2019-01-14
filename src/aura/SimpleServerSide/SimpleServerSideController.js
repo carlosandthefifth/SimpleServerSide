@@ -3,11 +3,11 @@
         // create a one-time use instance of the serverEcho action
         // in the server-side controller
         var action = cmp.get("c.serverEcho");
-        action.setParams({ "values": 
-        {
-            "Hello": 5,
-            "World": 15 
-        }
+        action.setParams({ 
+            "values": {
+                "Hello": 5,
+                "World": 15 
+            }
          } );
 
         // Create a callback that is executed after 
